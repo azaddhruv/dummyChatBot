@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speech based Chat Bot</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="chatbot">
+      <div class="header">
+        <img
+          class="header__icon"
+          src="https://images.unsplash.com/photo-1589254065909-b7086229d08c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          alt=""
+        />
+        <div class="header__right">
+          <p>Chat With</p>
+          <p>Mr. Wall - E</p>
+        </div>
+      </div>
+      <div class="main">
+        <p class="rec">
+          This is the start of the chat, You can ask or tell anything.
+        </p>
+      </div>
+      <div class="bottom">
+        <button type="button" id="startButton">Start Asking</button>
+        <button type="button" id="stopButton" disabled>Stop Asking</button>
+      </div>
+    </div>
+
+    <!-- <audio controls id="audioPlayer"></audio> -->
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
